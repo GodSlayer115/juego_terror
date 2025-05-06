@@ -15,7 +15,7 @@ C:/Users/juano/Desktop/unity/copy/juego_terror/THE MADNESS - copia
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55708
+50284
 Successfully changed project path to: C:/Users/juano/Desktop/unity/copy/juego_terror/THE MADNESS - copia
 C:/Users/juano/Desktop/unity/copy/juego_terror/THE MADNESS - copia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/juano/Desktop/unity/copy/juego_terror/THE MADNESS - copia
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5276] Host "[IP] 192.168.80.70 [Port] 0 [Flags] 2 [Guid] 647430551 [EditorId] 647430551 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-T19HLG7V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24460] Host "[IP] 192.168.80.70 [Port] 0 [Flags] 2 [Guid] 4275136456 [EditorId] 4275136456 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-T19HLG7V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5276] Host "[IP] 192.168.80.70 [Port] 0 [Flags] 2 [Guid] 647430551 [EditorId] 647430551 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-T19HLG7V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24460] Host "[IP] 192.168.80.70 [Port] 0 [Flags] 2 [Guid] 4275136456 [EditorId] 4275136456 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-T19HLG7V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 27.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -70,50 +70,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.027489 seconds.
-- Loaded All Assemblies, in  0.587 seconds
+Registered in 0.013872 seconds.
+- Loaded All Assemblies, in  0.293 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 987ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 524ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (111ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (405ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (233ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
+		SetupLoadedEditorAssemblies (185ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,54 +121,54 @@ Domain Reload Profiling: 987ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.712 seconds
-Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.703 seconds
-Domain Reload Profiling: 1406ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (448ms)
-		LoadAssemblies (355ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (704ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (572ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (558ms)
+		SetupLoadedEditorAssemblies (441ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.1 MB). Loaded Objects now: 5607.
-Memory consumption went from 221.6 MB to 219.5 MB.
-Total: 4.648100 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.260800 ms MarkObjects: 3.425800 ms  DeleteObjects: 0.469800 ms)
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (2.1 MB). Loaded Objects now: 5635.
+Memory consumption went from 226.5 MB to 224.4 MB.
+Total: 3.510700 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.129200 ms MarkObjects: 2.516800 ms  DeleteObjects: 0.497000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,25 +186,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 494474.820567 seconds.
-  path: Assets/maps/cielos/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat
-  artifactKey: Guid(55c04ce684cb542debc357409498bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maps/cielos/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat using Guid(55c04ce684cb542debc357409498bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33258449621fdd7baf3514fc7459ce68') in 0.504946 seconds
+  Time since last request: 2436.746324 seconds.
+  path: Assets/Tom's Terrain Tools/Example Data/1-splatmap.tif
+  artifactKey: Guid(97e9e1e398e2c4fcf806c2a681cfdee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tom's Terrain Tools/Example Data/1-splatmap.tif using Guid(97e9e1e398e2c4fcf806c2a681cfdee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4bed20e36bd2785771cece9af81761') in 0.219599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tom's Terrain Tools/Example Data/7-splatmap.tif
+  artifactKey: Guid(1194a7f0f9bdccf48a3e435feb3715ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tom's Terrain Tools/Example Data/7-splatmap.tif using Guid(1194a7f0f9bdccf48a3e435feb3715ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810c3fe5c25e4febe9ca5a173d0b8508') in 0.011744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tom's Terrain Tools/Example Data/3-splatmap.tif
+  artifactKey: Guid(e246e6988e7f445e7a96e3bf4dafafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tom's Terrain Tools/Example Data/3-splatmap.tif using Guid(e246e6988e7f445e7a96e3bf4dafafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bb3cc38b1ada513f4c737f822b25b0') in 0.007002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tom's Terrain Tools/Example Data/7-treemap.tif
+  artifactKey: Guid(305857cf5761c8f428ec249f42001b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tom's Terrain Tools/Example Data/7-treemap.tif using Guid(305857cf5761c8f428ec249f42001b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a93ee71fa6f2b13a8bf3cb8ff547ace') in 0.007503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tom's Terrain Tools/Example Data/Example_sliceMap.png
+  artifactKey: Guid(b3e4fb69e948d2d4d84c718910d6a05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tom's Terrain Tools/Example Data/Example_sliceMap.png using Guid(b3e4fb69e948d2d4d84c718910d6a05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab39ac9cf3036a7240cf421724146a30') in 0.033975 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/maps/cielos/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx
-  artifactKey: Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maps/cielos/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx using Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee98a0226b44f21691747f980e270fa') in 0.081149 seconds
+  Time since last request: 45.378397 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(667d14c4597caf7498481d94f8116d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(667d14c4597caf7498481d94f8116d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7103619f653ff83f59b90e1f63f3bef6') in 0.007755 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 9.551847 seconds.
-  path: Assets/Prefabs/Camilo_super_ultra_duper_mega_triple_pro.prefab
-  artifactKey: Guid(79c7095edf054844785a34e090241f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Camilo_super_ultra_duper_mega_triple_pro.prefab using Guid(79c7095edf054844785a34e090241f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eca3eb15a7016d334c7bd6833fec774') in 0.079697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 361
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
