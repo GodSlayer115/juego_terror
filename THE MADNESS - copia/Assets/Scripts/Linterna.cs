@@ -5,12 +5,13 @@ using UnityEngine;
 public class Linterna : MonoBehaviour
 {
     public Light luzlinterna;
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -18,14 +19,19 @@ public class Linterna : MonoBehaviour
     {
         if (Input.GetKeyDown("f"))
         {
-            if (luzlinterna.enabled == true)
+            if (audioSource != null)
             {
-                luzlinterna.enabled = false;
+                audioSource.Play();
             }
-            else if (luzlinterna.enabled == false)
-            {
-                luzlinterna.enabled = true;
-            }
+            //if (luzlinterna.enabled == true)
+            //{
+            //    luzlinterna.enabled = false;
+            //}
+            //else if (luzlinterna.enabled == false)
+            //{
+            //    luzlinterna.enabled = true;
+            //}
+            luzlinterna.enabled = !luzlinterna.enabled;
         }
         
     }
