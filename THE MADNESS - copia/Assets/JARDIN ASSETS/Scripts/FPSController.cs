@@ -18,6 +18,10 @@ public class FPSController : MonoBehaviour
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
 
+
+    public Animator animator;
+    public float y, x;
+
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
@@ -34,7 +38,12 @@ public class FPSController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
     {
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical");
+        animator.SetFloat("vex", x);
+        animator.SetFloat("vey", y);
         #region Handles Movment
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
