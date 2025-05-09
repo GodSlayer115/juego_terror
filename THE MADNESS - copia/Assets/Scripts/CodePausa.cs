@@ -50,4 +50,10 @@ public class CodePausa : MonoBehaviour
     {
         SceneManager.LoadScene(NameMenu);
     }
+
+    public void ExitGame()
+    {
+        Debug.Log("Saliste bro");
+        Application.Quit();
+    }
 }
