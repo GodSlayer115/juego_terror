@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     public int damage = 10;
     public int aura = 5;
     public float pushBackForce = 5f;
-    public AudioSource hurtScream;
+   
     private GameObject player;
     private Health playerHealth;
     private Rigidbody rb;
@@ -17,6 +17,13 @@ public class EnemyController : MonoBehaviour
     private Animator animator;
     private bool auraCD = false;
     public float auraCooldownTime;
+
+    public AudioClip hurt;
+    public AudioClip bite;
+    public List<AudioClip> clipWakeUp;
+    public List<AudioClip> clipScream;
+    public List<AudioClip> clipChase;
+    public AudioSource zombieAudio;
 
     void Start()
     {
@@ -37,13 +44,19 @@ public class EnemyController : MonoBehaviour
     }
     IEnumerator StartSequence()
     {
-        
-        yield return new WaitForSeconds(5f); // Ajusta según la duración real de la animación
+        int i = Random.Range(0, clipWakeUp.Count);
+        int i2 = Random.Range(0, clipScream.Count);
+        int i3 = Random.Range(0, clipChase.Count);
+        zombieAudio.PlayOneShot(clipWakeUp[i]);
+        yield return new WaitForSeconds(3f); // Ajusta según la duración real de la animación
 
+        zombieAudio.PlayOneShot(clipScream[i2]);
         // Animación de grito
         animator.SetTrigger("Scream");
-        yield return new WaitForSeconds(4f); // Ajusta según duración
-
+        yield return new WaitForSeconds(2f); // Ajusta según duración
+        zombieAudio.clip = clipChase[i3];
+        zombieAudio.Play();
+        zombieAudio.loop = true;
         animator.SetTrigger("Run");
         // Activar NavMeshAgent
         navMeshAgent.enabled = true;
@@ -62,10 +75,12 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            zombieAudio.PlayOneShot(bite);
             if (playerHealth != null)
             {
                 playerHealth.health -= damage;
-                hurtScream.Play();
+                playerHealth.damaged(hurt);
+                
             }
             Vector3 pushDirection = (transform.position - collision.transform.position).normalized;
             rb.AddForce(pushDirection * pushBackForce, ForceMode.Impulse);
@@ -80,7 +95,7 @@ public class EnemyController : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.health -= aura; // Aplica el daño de aura
-                hurtScream.Play();
+                playerHealth.damaged(hurt);
                 auraCD = true;
                 StartCoroutine(AuraCD());
             }

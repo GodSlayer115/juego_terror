@@ -1,0 +1,886 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.56f1 (dd0c98481d00) revision 14486680'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 14284 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/juego_terror/THE MADNESS - copia
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49965
+Successfully changed project path to: D:/unity/juego_terror/THE MADNESS - copia
+D:/unity/juego_terror/THE MADNESS - copia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2640]  Target information:
+
+Player connection [2640]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1385528728 [EditorId] 1385528728 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IOII9TF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2640] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 9.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.56f1 (dd0c98481d00)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/juego_terror/THE MADNESS - copia/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     7142 MB
+    Driver:   31.0.21921.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.021182 seconds.
+- Loaded All Assemblies, in  0.623 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 1072ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.074 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.037 seconds
+Domain Reload Profiling: 2108ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1037ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (2.1 MB). Loaded Objects now: 5541.
+Memory consumption went from 215.3 MB to 213.2 MB.
+Total: 5.962400 ms (FindLiveObjects: 0.575300 ms CreateObjectMapping: 0.500400 ms MarkObjects: 4.192100 ms  DeleteObjects: 0.692600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87025.209539 seconds.
+  path: Assets/JARDIN ASSETS/NewPunch/ShirtlessZombieFree/Prefabs/ShirtlessZombie_FREE_URP.prefab
+  artifactKey: Guid(4d99d47e6e48a714c895368aed8a8fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/NewPunch/ShirtlessZombieFree/Prefabs/ShirtlessZombie_FREE_URP.prefab using Guid(4d99d47e6e48a714c895368aed8a8fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a40ebc499fd96597508ee8321e0bbdc6') in 2.219439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JARDIN ASSETS/NewPunch/ShirtlessZombieFree/Prefabs/ShirtlessZombie_BodyParts_FREE_URP.prefab
+  artifactKey: Guid(ef26b2dc882f2d741b1e5521ca67f8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/NewPunch/ShirtlessZombieFree/Prefabs/ShirtlessZombie_BodyParts_FREE_URP.prefab using Guid(ef26b2dc882f2d741b1e5521ca67f8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '62b4e1585a651d5866b1844080a39149') in 0.169050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 11.805348 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(0d736859d70ef214db5916cdf822b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer using Guid(0d736859d70ef214db5916cdf822b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '72778f1f7b5a737c648fdaee6e4e7902') in 0.015038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(cc8a59124f0a4a246833dc144e00e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer using Guid(cc8a59124f0a4a246833dc144e00e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fec41a87e5420067a12431f62fe77e86') in 0.002293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(667d14c4597caf7498481d94f8116d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(667d14c4597caf7498481d94f8116d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd436cf209950215db42f3abfd757ff9f') in 0.002491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.449235 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8ecf7a57f1a33bb156c6e4bacf2d9a3e') in 0.001848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '64832a71007e8cbd78af19478459c8f3') in 0.001445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.056795 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Med Res Mesh
+  artifactKey: Guid(fceb32f2f64880242a2e6cd3f3a95766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Med Res Mesh using Guid(fceb32f2f64880242a2e6cd3f3a95766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7985bbe8a6f3a45492e53fcad624d404') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.829954 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs
+  artifactKey: Guid(3f6eb42adb114df4dabcef83beae8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs using Guid(3f6eb42adb114df4dabcef83beae8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '48a243b8c7e3ec98eff866fd3988cad0') in 0.000847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.815888 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail
+  artifactKey: Guid(f40a310f1b6f2a74d81ee0c22c7f026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail using Guid(f40a310f1b6f2a74d81ee0c22c7f026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c658d349e2704ec0563abc7664fe4630') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.594767 seconds.
+  path: Assets/JARDIN ASSETS/garden/bot_batc.png
+  artifactKey: Guid(5c83c74656b8ebc43add5c335e3f60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/bot_batc.png using Guid(5c83c74656b8ebc43add5c335e3f60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6d5c80c8f763973ca5db1ca04f87fcab') in 0.030486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1f.png
+  artifactKey: Guid(935fc7d33499b414594322b3e00c8076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1f.png using Guid(935fc7d33499b414594322b3e00c8076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b53644fef62b3c1ee14397f8de32b8c6') in 0.008576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1j.bmp
+  artifactKey: Guid(9ea8b3d9df5057c4ca483e37cb995e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1j.bmp using Guid(9ea8b3d9df5057c4ca483e37cb995e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '225599d6f99df73b2e01f0c884f9ccf3') in 0.009027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1c.bmp
+  artifactKey: Guid(014e975e0ce23284cb856cdabf49676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1c.bmp using Guid(014e975e0ce23284cb856cdabf49676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7c3da08b42163937ad01607da9f7c634') in 0.007976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JARDIN ASSETS/garden/bot_bati.png
+  artifactKey: Guid(af8810b7561370740aa6b33b61828511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/bot_bati.png using Guid(af8810b7561370740aa6b33b61828511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c788a3d0cc19981ab6ffa9f056b81fb9') in 0.007301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1b.bmp
+  artifactKey: Guid(d6639176ce4ea7d4baa26328b051df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1b.bmp using Guid(d6639176ce4ea7d4baa26328b051df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1bc0fff6dbded7ca8d0465d472bc3868') in 0.011882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1e.png
+  artifactKey: Guid(bdbd64772e5b05f439620c6c6858c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1e.png using Guid(bdbd64772e5b05f439620c6c6858c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '76abe01ff884ee723ec462ca5756ad70') in 0.007908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1a.bmp
+  artifactKey: Guid(140e7ec6dd8049640a07e44071eee18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1a.bmp using Guid(140e7ec6dd8049640a07e44071eee18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a7ad9f281d9c99e5fce9c49102d410d6') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1a.png
+  artifactKey: Guid(0fdf0d0a300fa5347b739eee7699be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1a.png using Guid(0fdf0d0a300fa5347b739eee7699be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3595b55aefffd414038ab1e916465733') in 0.009095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1b.png
+  artifactKey: Guid(3c60470533501eb4fa80359fffbcfd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1b.png using Guid(3c60470533501eb4fa80359fffbcfd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '784b2529a3fea9ee61e914366b6d2caa') in 0.009857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1f.bmp
+  artifactKey: Guid(a03d50f9fc6c9f14f857baac9ff819ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1f.bmp using Guid(a03d50f9fc6c9f14f857baac9ff819ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '54b4ce25c7a2448ffa0eb2cea915a7cb') in 0.007721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1d.bmp
+  artifactKey: Guid(6d5ee9dc406bd3d498bc29f9f9c8dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1d.bmp using Guid(6d5ee9dc406bd3d498bc29f9f9c8dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7189c09c8c2bb933c33e35e567a0ec7d') in 0.009437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1i.bmp
+  artifactKey: Guid(45c0099c16b788145b376aa804d6bdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1i.bmp using Guid(45c0099c16b788145b376aa804d6bdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9cbb2bfe2ad3815270ebf401e5e9f58f') in 0.007922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1c.png
+  artifactKey: Guid(cffe7412df4f2894b90eacffde443fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1c.png using Guid(cffe7412df4f2894b90eacffde443fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '91ee59ddbdbc380495072d69ec9f140e') in 0.007905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1g.png
+  artifactKey: Guid(c95cf193cfcca7a4982f74d1fe4a084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1g.png using Guid(c95cf193cfcca7a4982f74d1fe4a084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '355a9843e7fac4ca3c5389669607385e') in 0.007999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1h.png
+  artifactKey: Guid(068d82f22cf0d4e468fde1d5de57eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1h.png using Guid(068d82f22cf0d4e468fde1d5de57eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6c0f308b1e9602875de0bda65973497c') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1e.bmp
+  artifactKey: Guid(bb85529a0ff779541aef616b37c1d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1e.bmp using Guid(bb85529a0ff779541aef616b37c1d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b97813905f5fbdb142f25689cdda9559') in 0.009304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden.fbx
+  artifactKey: Guid(df7f5ad665ae95340a8ef622c859d413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden.fbx using Guid(df7f5ad665ae95340a8ef622c859d413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e4d8b740a003bd8c58afb47475b2fdc6') in 2.091729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JARDIN ASSETS/IMG/BarraCordura.png
+  artifactKey: Guid(76d6490f5e8c5a44d84bc8f92644cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/IMG/BarraCordura.png using Guid(76d6490f5e8c5a44d84bc8f92644cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9a000667a88af375bb45d466726d1987') in 0.027762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1j.png
+  artifactKey: Guid(ef0b8ca36ea73274e8b326260476fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1j.png using Guid(ef0b8ca36ea73274e8b326260476fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0088d718b844c4a31843d334581e76cc') in 0.009717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1d.png
+  artifactKey: Guid(a28ba036cd800ab40b44c92256fb9384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1d.png using Guid(a28ba036cd800ab40b44c92256fb9384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b1eb208cf72d5e876b3b2a56d7403441') in 0.010935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1g.bmp
+  artifactKey: Guid(303540e13aef31f449a9795a7b979532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1g.bmp using Guid(303540e13aef31f449a9795a7b979532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4523eeb1c05f3bcb5a79c0b363f40e4a') in 0.009006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JARDIN ASSETS/IMG/makin-smth-with-this-trust-w-gif.gif
+  artifactKey: Guid(873d807138b1e6a4b9a2b08b15468ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/IMG/makin-smth-with-this-trust-w-gif.gif using Guid(873d807138b1e6a4b9a2b08b15468ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4d29ccc5302509bd1125237c82e5727f') in 0.011208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/JARDIN ASSETS/garden/garden1h.bmp
+  artifactKey: Guid(f01522507df56454f947fc1a7be4f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/garden/garden1h.bmp using Guid(f01522507df56454f947fc1a7be4f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4559125ff10478f5868307bd24240393') in 0.009309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.862177 seconds.
+  path: Assets/JARDIN ASSETS/Scenes
+  artifactKey: Guid(d4ede442d17c3e54587a04ef2e4ac2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Scenes using Guid(d4ede442d17c3e54587a04ef2e4ac2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7ee8278196683bec3321ea46869e5a5d') in 0.001053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.833351 seconds.
+  path: Assets/JARDIN ASSETS/Scenes/Jardin.unity
+  artifactKey: Guid(c0a9148bd5389884b9eb09fac735fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Scenes/Jardin.unity using Guid(c0a9148bd5389884b9eb09fac735fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a0bcae4137de3c8c49999d100447c8a3') in 0.001024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 473.142075 seconds.
+  path: Assets/JARDIN ASSETS/Audios
+  artifactKey: Guid(7f32c9b8ff0589a43a1d6a1a1779a21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios using Guid(7f32c9b8ff0589a43a1d6a1a1779a21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '205d58451dc785dac02d8d444380be6f') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050764 seconds.
+  path: Assets/JARDIN ASSETS/Audios/male_hurt7-48124.mp3
+  artifactKey: Guid(44cd1c1a29e22ee4e9860ee45cbd4d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/male_hurt7-48124.mp3 using Guid(44cd1c1a29e22ee4e9860ee45cbd4d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd062aea5087bc4f75fa0dae12b099e8b') in 0.046626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/JARDIN ASSETS/Audios/Sound Effects - Sonic Exe Scream.mp3
+  artifactKey: Guid(125f76464d5665c4fae8099209e15da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/Sound Effects - Sonic Exe Scream.mp3 using Guid(125f76464d5665c4fae8099209e15da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ba25d34b11d552688c2226706b20a32d') in 0.014312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.329885 seconds.
+  path: Assets/JARDIN ASSETS/Audios/chase-scene-246673.mp3
+  artifactKey: Guid(11fe28adbb17bef459391a8a2ad8475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/chase-scene-246673.mp3 using Guid(11fe28adbb17bef459391a8a2ad8475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b8be945a261ca450383600a9c2bcc257') in 0.007599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055367 seconds.
+  path: Assets/JARDIN ASSETS/Audios/suspense-horror-tension-309914.mp3
+  artifactKey: Guid(0e58fa259fe042048be62a8c3f3a3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/suspense-horror-tension-309914.mp3 using Guid(0e58fa259fe042048be62a8c3f3a3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '463bfb485bf9617f47f486d1629026a1') in 0.013683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.782764 seconds.
+  path: Assets/JARDIN ASSETS/Scripts
+  artifactKey: Guid(6e5bc7f0892ef0b478542516488f5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Scripts using Guid(6e5bc7f0892ef0b478542516488f5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bd2b3a4cf53af4168be911397d1a2069') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.819873 seconds.
+  path: Assets/JARDIN ASSETS/Scripts/Zones.cs
+  artifactKey: Guid(01c6a00fe51c28642a3e6dd8ab8a50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Scripts/Zones.cs using Guid(01c6a00fe51c28642a3e6dd8ab8a50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6465106e95d6b29b54dd2c4556056191') in 0.001309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 163.073383 seconds.
+  path: Assets/JARDIN ASSETS/Scripts/EnemyController.cs
+  artifactKey: Guid(95bb88c810179bf448212970e214fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Scripts/EnemyController.cs using Guid(95bb88c810179bf448212970e214fd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3b1c41f24b76a2dd81638dfbb3f70d6c') in 0.000805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.773 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.728 seconds
+Domain Reload Profiling: 10498ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (509ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (9728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (2.0 MB). Loaded Objects now: 5636.
+Memory consumption went from 186.8 MB to 184.7 MB.
+Total: 5.063800 ms (FindLiveObjects: 0.615700 ms CreateObjectMapping: 0.240100 ms MarkObjects: 3.726500 ms  DeleteObjects: 0.480000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 968.479059 seconds.
+  path: Assets/JARDIN ASSETS/Audios/angry-grunt-103204.mp3
+  artifactKey: Guid(98416e2c8881f384e81c4d6cd36ee97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/angry-grunt-103204.mp3 using Guid(98416e2c8881f384e81c4d6cd36ee97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '41e703ef2ce95770df55a516c204ffa2') in 0.075248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JARDIN ASSETS/Audios/restrained-zombie-128358.mp3
+  artifactKey: Guid(5c72f9da6f44ecf46b0f7557ee7c95ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/restrained-zombie-128358.mp3 using Guid(5c72f9da6f44ecf46b0f7557ee7c95ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e4e240f1481b752e1e36c6212a946686') in 0.023160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JARDIN ASSETS/Audios/zombie-15965.mp3
+  artifactKey: Guid(59883b4806042594592df3c1960da946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/zombie-15965.mp3 using Guid(59883b4806042594592df3c1960da946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e4563c5a7f18e81b644d7c7d85ed6f35') in 0.025512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JARDIN ASSETS/Audios/zombie-6851.mp3
+  artifactKey: Guid(a4201ad44493fa74fb509b98ac2d022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/zombie-6851.mp3 using Guid(a4201ad44493fa74fb509b98ac2d022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5d3a6c394456991121727bdb8be4ee39') in 0.015719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JARDIN ASSETS/Audios/growling-zombie-104988.mp3
+  artifactKey: Guid(174edb6964cc56b4eb06cf51de7f65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JARDIN ASSETS/Audios/growling-zombie-104988.mp3 using Guid(174edb6964cc56b4eb06cf51de7f65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cb17e3b70d52b0be5baa57a62070f03b') in 0.012667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.622 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2074ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (2.0 MB). Loaded Objects now: 5640.
+Memory consumption went from 186.7 MB to 184.7 MB.
+Total: 4.156400 ms (FindLiveObjects: 0.515900 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.740400 ms  DeleteObjects: 0.747500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.669 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.442 seconds
+Domain Reload Profiling: 2107ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (2.0 MB). Loaded Objects now: 5644.
+Memory consumption went from 186.7 MB to 184.7 MB.
+Total: 4.990400 ms (FindLiveObjects: 0.570100 ms CreateObjectMapping: 0.313100 ms MarkObjects: 3.363500 ms  DeleteObjects: 0.742000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

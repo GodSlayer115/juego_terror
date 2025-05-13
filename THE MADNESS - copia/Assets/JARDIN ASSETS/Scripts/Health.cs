@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     public int health = 100;
-    public AudioSource deathScream;
-    
+    public AudioSource sounds;
+
 
     private bool isDead = false;
 
@@ -18,19 +18,24 @@ public class Health : MonoBehaviour
 
     void Update()
     {
+        if(health> 100) {health = 100;}
         if (health <= 0 && !isDead)
         {
             isDead = true; // evita múltiples ejecuciones
             
-            deathScream.Play();
+            sounds.Play();
             StartCoroutine(DeathSequence());
         }
     }
 
     IEnumerator DeathSequence()
     {
-        yield return new WaitForSeconds(deathScream.clip.length);
+        yield return new WaitForSeconds(sounds.clip.length);
         SceneManager.LoadScene("GAMEOVER");
     }
 
+    public void damaged(AudioClip clip) 
+    {
+        sounds.PlayOneShot(clip);
+    } 
 }
