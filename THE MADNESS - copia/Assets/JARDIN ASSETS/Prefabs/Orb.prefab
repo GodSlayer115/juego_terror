@@ -128,7 +128,6 @@ MonoBehaviour:
   jumpBuffTime: 0
   jumpBuff: 0
   orbing: {fileID: 6882474212031488163}
-  picked: {fileID: 8300000, guid: 7db9bf6ad172a2643a0551b0a29ec782, type: 3}
   heal: 0
 --- !u!1 &6976098137631844638
 GameObject:
@@ -176,7 +175,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -6,7 +6,7 @@ public class Rorb : MonoBehaviour
 {
     public GameObject player;
     public Health health;
-    public FPSController fpsController;
+    public PlayerMovement fpsController;
     public float speedBuffTime;
     public int speedBuff;
     public float jumpBuffTime;
@@ -19,7 +19,7 @@ public class Rorb : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         health = player.GetComponent<Health>();
-        fpsController = player.GetComponent<FPSController>();
+        fpsController = player.GetComponent<PlayerMovement>();
     }
 
     private void OnTriggerEnter(Collider other)

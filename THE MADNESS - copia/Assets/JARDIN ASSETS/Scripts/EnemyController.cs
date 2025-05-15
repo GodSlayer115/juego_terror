@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     public float speed = 3f;
     public int damage = 10;
     public int aura = 5;
-    public float pushBackForce = 5f;
+    public float pushBackForce = 15f;
    
     private GameObject player;
     private Health playerHealth;
@@ -75,12 +75,12 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            zombieAudio.PlayOneShot(bite);
+            
             if (playerHealth != null)
             {
                 playerHealth.health -= damage;
                 playerHealth.damaged(hurt);
-                
+                playerHealth.damaged(bite);
             }
             Vector3 pushDirection = (transform.position - collision.transform.position).normalized;
             rb.AddForce(pushDirection * pushBackForce, ForceMode.Impulse);
