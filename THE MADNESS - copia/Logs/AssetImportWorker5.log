@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.56f1 (dd0c98481d00) revision 14486680'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 8029 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7812 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Juan Camilo/2024/UAO/ASIGNATURAS/SEMESTRE_5/Computación Gráfica/Unity/juego_terror/THE MADNESS - copia
+C:/Users/ASUS/Downloads/Proyectos unity/juego_terror/THE MADNESS - copia
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-57092
-Successfully changed project path to: C:/Juan Camilo/2024/UAO/ASIGNATURAS/SEMESTRE_5/Computación Gráfica/Unity/juego_terror/THE MADNESS - copia
-C:/Juan Camilo/2024/UAO/ASIGNATURAS/SEMESTRE_5/Computación Gráfica/Unity/juego_terror/THE MADNESS - copia
+52501
+Successfully changed project path to: C:/Users/ASUS/Downloads/Proyectos unity/juego_terror/THE MADNESS - copia
+C:/Users/ASUS/Downloads/Proyectos unity/juego_terror/THE MADNESS - copia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,74 @@ C:/Juan Camilo/2024/UAO/ASIGNATURAS/SEMESTRE_5/Computación Gráfica/Unity/juego
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7784]  Target information:
+Player connection [31656]  Target information:
 
-Player connection [7784]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2298837782 [EditorId] 2298837782 [Version] 1048832 [Id] WindowsEditor(7,MBAPPE07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31656]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2176534063 [EditorId] 2176534063 [Version] 1048832 [Id] WindowsEditor(7,Ali-Aoma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7784] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31656]  * "[IP] 11.11.34.8 [Port] 0 [Flags] 2 [Guid] 2176534063 [EditorId] 2176534063 [Version] 1048832 [Id] WindowsEditor(7,Ali-Aoma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31656] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 277.17 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 78.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.56f1 (dd0c98481d00)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Juan Camilo/2024/UAO/ASIGNATURAS/SEMESTRE_5/Computación Gráfica/Unity/juego_terror/THE MADNESS - copia/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Downloads/Proyectos unity/juego_terror/THE MADNESS - copia/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
-    Vendor:   Intel
-    VRAM:     4014 MB
-    Driver:   31.0.101.1999
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.168092 seconds.
-- Loaded All Assemblies, in  3.648 seconds
+Registered in 0.031130 seconds.
+- Loaded All Assemblies, in  1.521 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.349 seconds
-Domain Reload Profiling: 4965ms
-	BeginReloadAssembly (1424ms)
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (330ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (341ms)
-	RebuildNativeTypeToScriptingClass (112ms)
-	initialDomainReloadingComplete (632ms)
-	LoadAllAssembliesAndSetupDomain (1104ms)
-		LoadAssemblies (1374ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (953ms)
+		LoadAssemblies (320ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1073ms)
-			TypeCache.Refresh (1068ms)
-				TypeCache.ScanAssembly (999ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1351ms)
+		AnalyzeDomain (950ms)
+			TypeCache.Refresh (947ms)
+				TypeCache.ScanAssembly (921ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (499ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1089ms)
+		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (86ms)
-			SetLoadedEditorAssemblies (45ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (720ms)
-			ProcessInitializeOnLoadMethodAttributes (225ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,52 +125,52 @@ Domain Reload Profiling: 4965ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.930 seconds
+- Loaded All Assemblies, in  3.605 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.308 seconds
-Domain Reload Profiling: 7206ms
-	BeginReloadAssembly (719ms)
+- Finished resetting the current domain, in  1.273 seconds
+Domain Reload Profiling: 4860ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (170ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (248ms)
-	LoadAllAssembliesAndSetupDomain (2704ms)
-		LoadAssemblies (2142ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (3248ms)
+		LoadAssemblies (2856ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1022ms)
-			TypeCache.Refresh (857ms)
-				TypeCache.ScanAssembly (773ms)
-			ScanForSourceGeneratedMonoScriptInfo (109ms)
-			ResolveRequiredComponents (49ms)
-	FinalizeReload (3309ms)
+		AnalyzeDomain (539ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (296ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1273ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2585ms)
+		SetupLoadedEditorAssemblies (954ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (415ms)
-			ProcessInitializeOnLoadAttributes (1732ms)
-			ProcessInitializeOnLoadMethodAttributes (308ms)
-			AfterProcessingInitializeOnLoad (60ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.44 seconds
-Refreshing native plugins compatible for Editor in 43.41 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (2.1 MB). Loaded Objects now: 5545.
-Memory consumption went from 215.5 MB to 213.4 MB.
-Total: 14.716400 ms (FindLiveObjects: 1.356400 ms CreateObjectMapping: 1.460200 ms MarkObjects: 10.630300 ms  DeleteObjects: 1.266000 ms)
+Unloading 5094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (2.1 MB). Loaded Objects now: 5547.
+Memory consumption went from 216.0 MB to 214.0 MB.
+Total: 7.539200 ms (FindLiveObjects: 0.708800 ms CreateObjectMapping: 0.264000 ms MarkObjects: 5.946000 ms  DeleteObjects: 0.619300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,9 +186,280 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18913.988203 seconds.
+  path: Assets/IMG & FONTS/bloodcrow.ttf
+  artifactKey: Guid(54c39c3d0c8dc1342b06cdfe59f166a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG & FONTS/bloodcrow.ttf using Guid(54c39c3d0c8dc1342b06cdfe59f166a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8654cd6f2aedb44a7e6c760d20eaa3f1') in 0.560850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/IMG & FONTS/who asks satan.ttf
+  artifactKey: Guid(3ee900da87e4c984e945326b9d904e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG & FONTS/who asks satan.ttf using Guid(3ee900da87e4c984e945326b9d904e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '774a91b88dbdb570b79fc9e3580dfe67') in 0.035021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 38.899814 seconds.
+  path: Assets/animations_mias/camilo_ultra_super_personaje_principal/Remy@Running.fbx
+  artifactKey: Guid(7a999d140218a9c48b0b20a7c90ee908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations_mias/camilo_ultra_super_personaje_principal/Remy@Running.fbx using Guid(7a999d140218a9c48b0b20a7c90ee908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9ef6e268ebb1bc7e7053c1d3dc1f12f') in 0.821303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 10.140795 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit B2.prefab
+  artifactKey: Guid(817f8f59803afaf468ab835b7c6d5875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit B2.prefab using Guid(817f8f59803afaf468ab835b7c6d5875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6b9adb06d612067c911b57ec9e596bf') in 3.262328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef B2.prefab
+  artifactKey: Guid(974397dfa36850349be1f3418d4f8786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef B2.prefab using Guid(974397dfa36850349be1f3418d4f8786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b479c1e7a686221ace62d91291f99365') in 0.099455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef B1.prefab
+  artifactKey: Guid(7fc4139a06c166f429b7ed429758c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef B1.prefab using Guid(7fc4139a06c166f429b7ed429758c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42ad8398752dab4535f2bfb466999131') in 0.091824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef C5.prefab
+  artifactKey: Guid(71175ad36fe699b48a40a2d371fc2683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef C5.prefab using Guid(71175ad36fe699b48a40a2d371fc2683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a19cc40288666355f45c35c24a7b5a21') in 0.087943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef A3.prefab
+  artifactKey: Guid(5899221a9502a204e9ef40c9ccd90a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef A3.prefab using Guid(5899221a9502a204e9ef40c9ccd90a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd575dbc1a0f5bd47e7b7546e3472fe5f') in 0.080810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef C6.prefab
+  artifactKey: Guid(21e1231f62047964a909678afae30b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef C6.prefab using Guid(21e1231f62047964a909678afae30b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '077ee555daec55a02c0039bdfbae55d1') in 0.092052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef D6.prefab
+  artifactKey: Guid(9790ba8ba0effc340aa26f264782f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef D6.prefab using Guid(9790ba8ba0effc340aa26f264782f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fef134b3c9dfc6fc4b586581841a21cb') in 0.090478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit Leaf B.prefab
+  artifactKey: Guid(f8a0de73f0b7d8b40b59e81ade1e8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit Leaf B.prefab using Guid(f8a0de73f0b7d8b40b59e81ade1e8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c4bc49e66bd0f581b3df9ea951a6870') in 0.076961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit Leaf D.prefab
+  artifactKey: Guid(065b91da718ed61498c6eb71f105685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spindlewit/Spindlewit Leaf D.prefab using Guid(065b91da718ed61498c6eb71f105685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f0d4c3214cad46e1572a8f88c6be087') in 0.073372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef A4.prefab
+  artifactKey: Guid(ed7a9a0947fd9914f9543e6f7e83c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef A4.prefab using Guid(ed7a9a0947fd9914f9543e6f7e83c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '603a71b63023ad67ecc7894e1953cd5a') in 0.070215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 1.152629 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef Flower D1.prefab
+  artifactKey: Guid(d65606ef703a6474780dc8e1a92b60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef Flower D1.prefab using Guid(d65606ef703a6474780dc8e1a92b60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '747ca3154f9480678f5ab5fea7eaa53c') in 0.061172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.005672 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef Leaf C.prefab
+  artifactKey: Guid(e5dca06cc07d9384688006e69f160980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Spin Reef/Spin Reef Leaf C.prefab using Guid(e5dca06cc07d9384688006e69f160980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '023612315e9ca1d8b0e6050351123728') in 0.056444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 10.504382 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root A4.prefab
+  artifactKey: Guid(648148a969392714bbebe189337b5ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root A4.prefab using Guid(648148a969392714bbebe189337b5ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cd1b0be7980ed0999ba1cd321741e53') in 0.057905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root B2.prefab
+  artifactKey: Guid(0189a8372d28aa540b7e9563b11a0cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root B2.prefab using Guid(0189a8372d28aa540b7e9563b11a0cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f12d9fcad84dae2ca35abef65a9bae86') in 0.059565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root B6.prefab
+  artifactKey: Guid(63bfc1e232c3fa34c9d65396cce16837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root B6.prefab using Guid(63bfc1e232c3fa34c9d65396cce16837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b90c6d0dc15af476ddb5fe07edcc67f') in 0.069840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root C5.prefab
+  artifactKey: Guid(7da24fcdfc81adc469cec1044a6a9d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root C5.prefab using Guid(7da24fcdfc81adc469cec1044a6a9d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2087085f0b1b80838149fc8773f7126d') in 0.049838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root D3.prefab
+  artifactKey: Guid(9c7d9c049a17e7b4b8858748f0cb898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root D3.prefab using Guid(9c7d9c049a17e7b4b8858748f0cb898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7bfc58db119463924839d1da78bf569') in 0.054936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root Leaf A.prefab
+  artifactKey: Guid(763356c44fd186e489272344cb5b7333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root Leaf A.prefab using Guid(763356c44fd186e489272344cb5b7333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa203a6261fcbe52c5b2987eec3be71c') in 0.071034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root D5.prefab
+  artifactKey: Guid(8286552a977fea845a8f0163ed1706bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Row Root/Row Root D5.prefab using Guid(8286552a977fea845a8f0163ed1706bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f557a00de3d43562b27726fa28a24a8') in 0.074867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 4.024046 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Painter Wort/Painter Wort D.prefab
+  artifactKey: Guid(dcb3b4858454ae64e8eb04b088a91404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Painter Wort/Painter Wort D.prefab using Guid(dcb3b4858454ae64e8eb04b088a91404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46051f66a763556dd9720038ed258437') in 0.063202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Painter Wort/Painter Wort Leaf D.prefab
+  artifactKey: Guid(f1fe1cc821251974783dd4211a48a6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Prefabs/Medium Resolution With Level Of Detail/Painter Wort/Painter Wort Leaf D.prefab using Guid(f1fe1cc821251974783dd4211a48a6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b19b533487091a5ab65736567ee77ba') in 0.064803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.478736 seconds.
+  path: Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Med Res Materials/Texture Atlas 1 Specular.png
+  artifactKey: Guid(47f950c489dfb084182cf43804f71565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Med Res Materials/Texture Atlas 1 Specular.png using Guid(47f950c489dfb084182cf43804f71565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f30cf77a0503a49b01ea5f177a75ae0f') in 0.070758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operaci�n de E/S se anul� por una salida de subproceso o por una solicitud de aplicaci�n.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
