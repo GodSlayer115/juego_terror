@@ -12,12 +12,13 @@ public class Zones : MonoBehaviour
     public GameObject prefabenemy;
     public List<Transform> pointEnemy;
     public string scene;
+    public bool activateMusic = false;
+    public AudioSource music;
+    public AudioSource currMusic;
     
     private GameObject player;
     void Start()
     {
-       
-
         player = GameObject.FindWithTag("Player");
         playerHealth = player.GetComponent<Health>();
     }
@@ -31,6 +32,11 @@ public class Zones : MonoBehaviour
                     for (int i = 0; i < pointEnemy.Count; i++)
                     {
                         Instantiate(prefabenemy, pointEnemy[i].position, prefabenemy.transform.rotation);
+                        if (activateMusic) 
+                        {
+                            currMusic.Stop();
+                            music.Play();
+                        }
                     }
                     break;
                 case "return":
