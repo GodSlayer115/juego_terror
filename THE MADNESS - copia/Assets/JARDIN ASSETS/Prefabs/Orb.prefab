@@ -123,12 +123,12 @@ MonoBehaviour:
   player: {fileID: 8946119619833246138, guid: d9092e0cafd13ec4787cb075591bd868, type: 3}
   health: {fileID: 0}
   fpsController: {fileID: 0}
-  speedBuffTime: 1.93
-  speedBuff: 6
-  jumpBuffTime: 1.71
-  jumpBuff: 10.5
+  speedBuffTime: 0
+  speedBuff: 0
+  jumpBuffTime: 0
+  jumpBuff: 0
   orbing: {fileID: 6882474212031488163}
-  heal: 30
+  heal: 0
 --- !u!1 &6976098137631844638
 GameObject:
   m_ObjectHideFlags: 0
