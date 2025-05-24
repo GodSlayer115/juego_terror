@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Manicomio.unity
     guid: 1b25c6f3f35eec64c843276c2ee84168
   - enabled: 1
+    path: Assets/Scenes/Jardin.unity
+    guid: c0a9148bd5389884b9eb09fac735fba9
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: f18074124bf8d7f48bacd53d86cabf2d
+  - enabled: 0
     path: Assets/Scenes/Bosque.unity
     guid: 598777387c5505646bbe75b3445e21dc
   - enabled: 0

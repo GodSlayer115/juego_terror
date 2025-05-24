@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Linterna : MonoBehaviour
 {
     public Light luzlinterna;
-    public AudioSource audioSource;
-
+    //public AudioClip soundLinterna;
+    public AudioSource soundLinterna;
 
     // Start is called before the first frame update
     void Start()
     {
         //audioSource = GetComponent<AudioSource>();
+        //if (audioSource == null)
+        //{
+        //    audioSource = gameObject.AddComponent<AudioSource>();
+        //}
     }
 
     // Update is called once per frame
@@ -19,20 +24,24 @@ public class Linterna : MonoBehaviour
     {
         if (Input.GetKeyDown("f"))
         {
-            if (audioSource != null)
+            if (luzlinterna.enabled == true)
             {
-                audioSource.Play();
+                luzlinterna.enabled = false;
+                //audioSource.PlayOneShot(soundLinterna);
+                soundLinterna.Play();
             }
-            //if (luzlinterna.enabled == true)
-            //{
-            //    luzlinterna.enabled = false;
-            //}
-            //else if (luzlinterna.enabled == false)
-            //{
-            //    luzlinterna.enabled = true;
-            //}
-            luzlinterna.enabled = !luzlinterna.enabled;
+            else if (luzlinterna.enabled == false)
+            {
+                luzlinterna.enabled = true;
+                //audioSource.PlayOneShot(soundLinterna);
+                soundLinterna.Play();
+            }
         }
         
+    }
+
+    public void lighted(AudioClip clip)
+    {
+        soundLinterna.PlayOneShot(clip);
     }
 }
