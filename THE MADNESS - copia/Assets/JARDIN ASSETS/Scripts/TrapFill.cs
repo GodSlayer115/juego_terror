@@ -16,9 +16,9 @@ public class TrapFill : MonoBehaviour
     {
         trapFill.SetActive(false);
     }
-    void Update()
+    void FixedUpdate()
     {
-        if(currTrapTime < 0) 
+        if(currTrapTime < 0 || currTrapTime >= maxTrapTime) 
         { currTrapTime = 0; }
         if (Input.GetKeyUp(KeyCode.E)) 
         { currTrapTime += pressEcharge ; }

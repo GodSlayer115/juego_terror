@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpPower = 7f;
     public float defJumpPower = 7f;
     public float gravity = 10f;
-    private bool isEnabled = false;
+    private bool enabled = true;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
 
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isEnabled)
+        if (enabled)
         {
             #region Handles Movment
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -94,19 +94,5 @@ public class PlayerMovement : MonoBehaviour
         jumpPower += buff;
         yield return new WaitForSeconds(buffTime);
         jumpPower = defJumpPower;
-    }
-
-    public IEnumerator trapped(float trapTime) 
-    {
-        moveDirection = Vector3.zero;
-        WalkSpeed = 0;
-        runSpeed = 0;
-        jumpPower = 0;
-        isEnabled = false;
-        yield return new WaitForSeconds(trapTime);
-        WalkSpeed = defWalkSpeed;
-        runSpeed = defRunSpeed;
-        jumpPower = defJumpPower;
-        isEnabled = true;
     }
 }

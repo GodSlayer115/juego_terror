@@ -11,7 +11,7 @@ public class SpinningTrap : MonoBehaviour
     public AudioClip hurt;
     public AudioClip slash;
     private Rigidbody rb;
-    public float pushBackForce = 10f;
+    public float pushBackForce = 100f;
 
     // Start is called before the first frame update
     void Start()

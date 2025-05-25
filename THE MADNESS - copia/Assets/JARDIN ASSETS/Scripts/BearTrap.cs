@@ -7,13 +7,13 @@ using UnityEngine.UIElements;
 
 public class BearTrap : MonoBehaviour
 {
-    public GameObject player;
-    public PlayerMovement movement;
+    private GameObject player;
+    private PlayerMovement movement;
     private Animator animator;
     public AudioSource trapSound;
-    public float traptime;
-    public GameObject panel;
+   [SerializeField] private GameObject panel;
    [SerializeField] private TrapFill trapFill;
+    private bool active = false;
 
     void Start()
     {
@@ -27,6 +27,7 @@ public class BearTrap : MonoBehaviour
         Debug.Log("colision con" + other.gameObject.tag);
         if (other.gameObject.CompareTag("Player")) 
         {
+            active = true;
             animator.SetTrigger("Trap");
             movement.enabled = false;
             trapSound.Play();
@@ -34,10 +35,11 @@ public class BearTrap : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (trapFill.currTrapTime >= trapFill.maxTrapTime)
+        if (active && trapFill.currTrapTime >= trapFill.maxTrapTime)
         {
+            trapFill.currTrapTime = 0;
             panel.SetActive(false);
             movement.enabled=true;
             Destroy(gameObject);

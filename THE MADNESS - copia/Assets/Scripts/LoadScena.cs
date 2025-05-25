@@ -13,10 +13,10 @@ public class LoadScena : MonoBehaviour
     // Start is called before the first frame update
     public void CambiarEscena(string nombre)
     {
-        //SceneManager.LoadScene(nombre);
+        Debug.Log("Cargando: " + nombre);
         StartCoroutine(CargarEscena(nombre));       
     }
-
+   
     private IEnumerator CargarEscena(string nombre)
     {
         if (panelCarga != null)
@@ -29,9 +29,9 @@ public class LoadScena : MonoBehaviour
         {
             barraCarga.value = 0f;
         }
-
+        Time.timeScale = 1f;
         yield return new WaitForSeconds(0.5f); // Le da una espera para mostrar el panel
-
+        
         AsyncOperation operacion = SceneManager.LoadSceneAsync(nombre);
         operacion.allowSceneActivation = false;
 
@@ -47,15 +47,18 @@ public class LoadScena : MonoBehaviour
             // Cuando llegue al 90% (Unity reserva el 10% final para el "activation")
             if (operacion.progress >= 0.9f)
             {
+                
                 if (barraCarga != null)
                 {
                     barraCarga.value = 1f;
                 }
 
                 //espera breve antes de continuar
+                Debug.Log("esperando2");
                 yield return new WaitForSeconds(0.2f);
-
+                
                 operacion.allowSceneActivation = true;
+                break;
             }
 
             yield return null;

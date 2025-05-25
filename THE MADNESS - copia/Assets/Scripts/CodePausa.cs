@@ -14,7 +14,7 @@ public class CodePausa : MonoBehaviour
     public GameObject objetoCamaraAux;
     public GameObject CanvasPausa;
     public GameObject HealthBarUI;
-
+    
 
 
     // Start is called before the first frame update
