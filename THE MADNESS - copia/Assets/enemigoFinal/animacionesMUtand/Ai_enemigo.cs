@@ -9,9 +9,10 @@
         public float velocidadCorriendo = 4.5f;
         public float rango = 10f; // Rango de detección
         public float rangoAtaque = 2f; // Rango para atacar
-        public Transform objetivo;
+        private Transform objetivo;
+        private Health playerHP;
         public Animator animator;
-
+        private Collider coll;
         private bool persiguiendo = false;
         private bool patrullando = true;
         private bool atacando = false;
@@ -21,6 +22,9 @@
         {
             patrullaRoutine = StartCoroutine(Patrullar());
             animator = GetComponent<Animator>();
+            objetivo = GameObject.FindWithTag("camilo").transform;
+            playerHP = objetivo.GetComponent<Health>();
+            coll = GetComponentInChildren<Collider>();
         }
 
         void Update()
@@ -104,7 +108,8 @@
             transform.rotation = Quaternion.LookRotation(direccion);
 
         Debug.Log("¡Atacando al jugador!");
-        animator.SetTrigger("Atacar"); // ✅ solo usa esto
+        animator.SetTrigger("Atacar"); // solo usa esto
+        
 
         // Esperar duración de la animación
         yield return new WaitForSeconds(1.5f);
@@ -113,7 +118,13 @@
         atacando = false;
     }
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (atacando && other.gameObject.CompareTag("camilo"))
+        {
+            playerHP.health -= 1000;
+        }
+    }
 
     private void OnDrawGizmos()
         {

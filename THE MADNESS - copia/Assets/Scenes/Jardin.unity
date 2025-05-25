@@ -9019,6 +9019,11 @@ PrefabInstance:
       propertyPath: soundLinterna
       value: 
       objectReference: {fileID: 1929172212}
+    - target: {fileID: 7112130695025247490, guid: 8846ebd6da7e1684faaa800365e06693,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18583,6 +18588,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 558514662}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &559195761 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 744842070312792776, guid: 8846ebd6da7e1684faaa800365e06693,
+    type: 3}
+  m_PrefabInstance: {fileID: 264091010}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef03229581d313b4eb6fede94f982f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &560111693
 GameObject:
   m_ObjectHideFlags: 0
@@ -69009,7 +69026,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 559195761}
     - target: {fileID: 8399343026021428363, guid: 431c5cf549feed64d81ae6a427e65581,
         type: 3}
       propertyPath: m_Pivot.x

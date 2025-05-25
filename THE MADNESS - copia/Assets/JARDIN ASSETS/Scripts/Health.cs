@@ -7,13 +7,22 @@ public class Health : MonoBehaviour
 {
     public int health = 100;
     public AudioSource sounds;
-
-
+    private Rigidbody[] rigRb;
+    private Collider[] rigColl;
+    private Rigidbody rbPlayer;
+    private PlayerMovement PlM;
+    private Animator animator;
     private bool isDead = false;
 
     private void Start()
     {
+        rbPlayer = GetComponent<Rigidbody>();
+        rigColl = GetComponentsInChildren<Collider>();
+        rigRb = GetComponentsInChildren<Rigidbody>();
+        PlM = GetComponent<PlayerMovement>();
+        animator = GetComponent<Animator>();
         
+        rbPlayer.isKinematic = false;
     }
 
     void Update()
@@ -22,7 +31,9 @@ public class Health : MonoBehaviour
         if (health <= 0 && !isDead)
         {
             isDead = true; // evita múltiples ejecuciones
-            
+            PlM.enabled = false;
+            animator.enabled = false;
+           
             sounds.Play();
             StartCoroutine(DeathSequence());
         }

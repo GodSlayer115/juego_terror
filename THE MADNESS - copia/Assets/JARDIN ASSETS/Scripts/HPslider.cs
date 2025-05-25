@@ -13,7 +13,7 @@ public class HPslider : MonoBehaviour
     public Health playerHealth;
     void Start()
     {
-        playerHealth = GameObject.FindWithTag("Player").GetComponent<Health>();
+        playerHealth = GameObject.FindWithTag("camilo").GetComponent<Health>();
     }
 
     // Update is called once per frame
