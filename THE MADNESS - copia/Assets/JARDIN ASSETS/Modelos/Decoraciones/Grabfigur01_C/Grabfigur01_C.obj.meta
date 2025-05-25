@@ -3,7 +3,17 @@ guid: 9cdab9571f0aeab4fb1d07f010cd33da
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grabfigur01_O.001
+    second: {fileID: 2100000, guid: 3e4fa129660e0d5409f737a751db1d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottom
+    second: {fileID: 2100000, guid: 55df8ce39baaef24cb3d3263919c92b7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

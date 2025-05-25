@@ -12,14 +12,27 @@ public class CodePausa : MonoBehaviour
     public GameObject objetoCamara;
     public GameObject objetoLinterna;
     public GameObject objetoCamaraAux;
+    public GameObject CanvasPausa;
+    public GameObject HealthBarUI;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
+
         if (objetoCamaraAux != null)
         {
             objetoCamaraAux.SetActive(false);
+        }
+
+        if (HealthBarUI != null)
+            HealthBarUI.SetActive(true);
+
+        if (CanvasPausa != null)
+        {
+            CanvasPausa.SetActive(false);
         }
     }
 
@@ -60,7 +73,13 @@ public class CodePausa : MonoBehaviour
     public void Pausar()
     {
         ObjetoMenuPausa.SetActive(true);
+        ObjetoMenuOption.SetActive(false);
         Pausa = true;
+
+        if (CanvasPausa != null)
+            CanvasPausa.SetActive(true);
+        if (HealthBarUI != null)
+            HealthBarUI.SetActive(false);
 
         objetoCamara.SetActive(false);
         objetoLinterna.SetActive(false);
@@ -83,7 +102,12 @@ public class CodePausa : MonoBehaviour
 
     public void Resume()
     {
-        ObjetoMenuPausa.SetActive(false);
+        if (CanvasPausa != null)
+            CanvasPausa.SetActive(false);
+        if (HealthBarUI != null)
+            HealthBarUI.SetActive(true);
+
+        //ObjetoMenuPausa.SetActive(false);
         Pausa = false;
 
         Time.timeScale = 1;

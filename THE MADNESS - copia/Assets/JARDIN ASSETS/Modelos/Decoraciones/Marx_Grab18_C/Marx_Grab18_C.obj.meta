@@ -3,7 +3,17 @@ guid: 78ece14fcf4d0b14d9df8565a3712182
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marx_Grab18_O.001
+    second: {fileID: 2100000, guid: bd86752aed37ff844aff08989191a011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottom
+    second: {fileID: 2100000, guid: eb35a332cc42a2e488c634919cc7d271, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
