@@ -15,16 +15,17 @@ public class Zones : MonoBehaviour
     public bool activateMusic = false;
     public AudioSource music;
     public AudioSource currMusic;
+    public LoadScena LoadScena;
     
     private GameObject player;
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("camilo");
         playerHealth = player.GetComponent<Health>();
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("camilo"))
         {
             switch(type) 
             {
@@ -43,7 +44,7 @@ public class Zones : MonoBehaviour
                     player.transform.position = spawn.position;
                     break;
                 case "scene":
-                    SceneManager.LoadScene(scene);
+                    LoadScena.CambiarEscena(scene);
                     break;
             }
         }

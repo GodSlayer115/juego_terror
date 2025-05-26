@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpPower = 7f;
     public float defJumpPower = 7f;
     public float gravity = 10f;
-    private bool enabled = true;
+   
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
 
@@ -35,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enabled)
-        {
+      
+        
             #region Handles Movment
             Vector3 forward = transform.TransformDirection(Vector3.forward);
             Vector3 right = transform.TransformDirection(Vector3.right);
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             #endregion
-        }
+        
         #region Handles Rotation
         characterController.Move(moveDirection * Time.deltaTime);
 

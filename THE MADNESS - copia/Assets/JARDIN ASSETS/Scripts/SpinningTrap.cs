@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SpinningTrap : MonoBehaviour
 {
-    private GameObject player;
+    [SerializeField] private GameObject player;
     private Health hp;
     public int damage;
     public AudioClip hurt;
@@ -16,13 +16,13 @@ public class SpinningTrap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      player = GameObject.FindWithTag("Player");  
+     
       hp = player.GetComponent<Health>();
-      rb = player.GetComponent<Rigidbody>();
+      
     }
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("camilo"))
         {
             
             if (hp != null)
@@ -31,8 +31,7 @@ public class SpinningTrap : MonoBehaviour
                 hp.damaged(hurt);
                 hp.damaged(slash);
             }
-            Vector3 pushDirection = (transform.position - collision.transform.position).normalized;
-            rb.AddForce(pushDirection * pushBackForce, ForceMode.Impulse);
+            
         }
     }
   

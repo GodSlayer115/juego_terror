@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player"); // Asegúrate de que el jugador tenga el tag "Player"
+        player = GameObject.FindWithTag("camilo"); // Asegúrate de que el jugador tenga el tag "Player"
         if (player != null)
         {
             playerHealth = player.GetComponent<Health>();
@@ -73,7 +73,7 @@ public class EnemyController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("camilo"))
         {
             
             if (playerHealth != null)
@@ -90,7 +90,7 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
 
-        if (other.gameObject.CompareTag("Player") && !auraCD)
+        if (other.gameObject.CompareTag("camilo") && !auraCD)
         {
             if (playerHealth != null)
             {

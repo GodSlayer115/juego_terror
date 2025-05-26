@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 
 public class BearTrap : MonoBehaviour
 {
-    private GameObject player;
+    [SerializeField] private GameObject player;
     private PlayerMovement movement;
     private Animator animator;
     public AudioSource trapSound;
@@ -17,7 +17,6 @@ public class BearTrap : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
         movement = player.GetComponent<PlayerMovement>();
         animator = gameObject.GetComponent<Animator>();
     }
@@ -25,7 +24,7 @@ public class BearTrap : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("colision con" + other.gameObject.tag);
-        if (other.gameObject.CompareTag("Player")) 
+        if (other.gameObject.CompareTag("camilo")) 
         {
             active = true;
             animator.SetTrigger("Trap");
