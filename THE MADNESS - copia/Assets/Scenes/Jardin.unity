@@ -458,10 +458,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9271440}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 9271439}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -509,22 +505,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9271440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9271438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &9271441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -816,10 +796,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 14097594}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 14097593}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -867,22 +843,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &14097594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14097592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &14097595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2383,10 +2343,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 53850135}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 53850134}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -2434,22 +2390,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &53850135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53850133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &53850136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6623,10 +6563,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 196504314}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 196504313}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -6674,22 +6610,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &196504314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196504312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &196504315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8022,10 +7942,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 218571881}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 218571880}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -8073,22 +7989,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &218571881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218571879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &218571882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10423,10 +10323,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 297239818}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 297239817}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -10474,22 +10370,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &297239818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297239816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &297239819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11108,22 +10988,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 562929866}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &309896450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309896449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1141792646}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &309896451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13654,10 +13518,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 394455496}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 394455495}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -13705,22 +13565,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &394455496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394455494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &394455497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18948,10 +18792,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 309896450}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 309896453}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -21255,10 +21095,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 646201655}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 646201654}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -21298,22 +21134,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &646201655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646201653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 399113922}
-  trapFill: {fileID: 0}
 --- !u!65 &646201656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24256,10 +24076,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 735941868}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 735941867}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -24307,22 +24123,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &735941868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735941866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &735941869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25861,10 +25661,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 785155160}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 785155159}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -25912,22 +25708,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &785155160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 785155158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &785155161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26860,10 +26640,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 809940739}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 809940738}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -26911,22 +26687,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &809940739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809940737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &809940740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27250,10 +27010,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 816629634}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 816629633}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -27301,22 +27057,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &816629634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816629632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &816629635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30483,10 +30223,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 898022808}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 898022807}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -30534,22 +30270,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &898022808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898022806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &898022809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31432,10 +31152,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 929668466}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 929668465}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -31483,22 +31199,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &929668466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929668464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &929668467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31839,10 +31539,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 933596818}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 933596817}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -31890,22 +31586,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &933596818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933596816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &933596819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35752,10 +35432,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1050537991}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1050537990}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -35803,22 +35479,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1050537991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050537989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1050537992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37428,10 +37088,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1107466820}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1107466819}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -37479,22 +37135,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1107466820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107466818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1107466821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38972,10 +38612,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1155258501}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1155258500}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -39023,22 +38659,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1155258501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155258499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1155258502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41160,10 +40780,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1207319989}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1207319988}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -41211,22 +40827,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1207319989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1207319987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1207319990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44701,10 +44301,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1325390796}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1325390795}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -44752,22 +44348,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1325390796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325390794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1325390797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57121,10 +56701,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1722115157}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1722115156}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -57172,22 +56748,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1722115157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722115155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &1722115158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66179,10 +65739,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2047351583}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2047351582}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -66230,22 +65786,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2047351583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047351581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &2047351584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68955,10 +68495,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2111556429}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2111556428}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a38b0b015c0e9e5418577252ff1d13b6,
         type: 3}
@@ -69006,22 +68542,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2111556429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111556427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3aabc75f044294469bf4208fb131e22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 891193779}
-  trapSound: {fileID: 1102960437}
-  panel: {fileID: 0}
-  trapFill: {fileID: 0}
 --- !u!65 &2111556430
 BoxCollider:
   m_ObjectHideFlags: 0
