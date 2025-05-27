@@ -92,7 +92,7 @@ public class Rorb : MonoBehaviour
             orbing.PlayOneShot(pick);
 
             // Informa al GameManager para actualizar el contador de orbes rojos recogidos
-            GameManager.Instance.Contador("orbesrojos");
+            GameManager.Instance.Contador("orbesRojos");
 
             // Destruye el objeto (orbe) una vez que el sonido haya terminado
             Destroy(gameObject, pick.length);

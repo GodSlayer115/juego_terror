@@ -388,6 +388,7 @@
 "Assets/Scripts/Generales/MenuInicial.cs"
 "Assets/Scripts/Generales/Options_Sound.cs"
 "Assets/Scripts/Generales/Pickables.cs"
+"Assets/Scripts/Generales/Savedata.cs"
 "Assets/Scripts/Generales/Zones.cs"
 "Assets/Scripts/Player/animation_camilo.cs"
 "Assets/Scripts/Player/Health.cs"

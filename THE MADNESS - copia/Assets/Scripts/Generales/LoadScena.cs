@@ -27,6 +27,7 @@ public class LoadScena : MonoBehaviour
     public void CambiarEscena(string nombre)
     {
         Debug.Log("Cargando: " + nombre);
+        GameManager.Instance.SaveGame();
         StartCoroutine(CargarEscena(nombre));
     }
 
@@ -78,6 +79,7 @@ public class LoadScena : MonoBehaviour
                 yield return new WaitForSeconds(0.2f);
 
                 operacion.allowSceneActivation = true;
+                
                 break;
             }
 

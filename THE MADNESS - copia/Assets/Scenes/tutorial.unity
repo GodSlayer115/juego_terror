@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monstruo: {fileID: 512952615}
-  damage: 52
+  damage: 43
   velocidadCaminando: 1.5
   velocidadCorriendo: 4.5
   rango: 10
