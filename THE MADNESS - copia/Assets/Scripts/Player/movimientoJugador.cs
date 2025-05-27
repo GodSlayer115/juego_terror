@@ -67,7 +67,26 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     public bool canMove = true;
 
+    /// <summary>
+    /// Controlador de movimiento del personaje, utilizado para mover al jugador mediante físicas.
+    /// </summary>
     private CharacterController characterController;
+
+    /// <summary>
+    /// Entrada horizontal del jugador (eje X).
+    /// </summary>
+    private float x;
+
+    /// <summary>
+    /// Entrada vertical del jugador (eje Y).
+    /// </summary>
+    private float y;
+
+    /// <summary>
+    /// Referencia al componente Animator para controlar las animaciones del personaje.
+    /// </summary>
+    public Animator animator;
+
 
     /// <summary>
     /// Inicializa el componente y bloquea el cursor.
@@ -84,13 +103,19 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void Update()
     {
+
         #region Handles Movement
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical");
+        animator.SetFloat("vex", x);
+        animator.SetFloat("vey", y);
+
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        float curSpeedX = canMove ? (isRunning ? runSpeed : WalkSpeed) * Input.GetAxis("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? runSpeed : WalkSpeed) * Input.GetAxis("Horizontal") : 0;
+        float curSpeedX = canMove ? (isRunning ? runSpeed : WalkSpeed) * x: 0;
+        float curSpeedY = canMove ? (isRunning ? runSpeed : WalkSpeed) * y : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
         #endregion
