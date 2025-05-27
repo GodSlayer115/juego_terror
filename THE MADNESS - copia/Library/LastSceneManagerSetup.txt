@@ -1,6 +1,5 @@
 sceneSetups:
-- path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Demo/Mapa
-    del pueblo.unity
+- path: Assets/Scenes/tutorial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
